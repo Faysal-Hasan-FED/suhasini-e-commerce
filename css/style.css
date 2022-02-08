@@ -1,0 +1,46 @@
+.image{
+    height: 500px;
+    object-fit: cover;
+}
+
+.product-image{
+    height: 294px;
+    /* width: 196px; */
+    object-fit: cover;
+}
+
+.line-break{
+    width: 15%;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+.line-break2{
+    width: 50%;
+    margin: auto;
+    background-color: crimson;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-card:hover{
+    color: darkblue;
+}
+
+.product-card img:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    height: 310px;
+    object-fit: cover;
+}
+
+#contact{
+    background-color: #a7c4c6;
+}
+
+@media screen and (max-width: 768px) {
+    .feature {
+      margin: 25px;
+    }
+  }
+
