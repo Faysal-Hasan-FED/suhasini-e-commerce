@@ -38,6 +38,10 @@
     background-color: #a7c4c6;
 }
 
+a{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
     .feature {
       margin: 25px;
